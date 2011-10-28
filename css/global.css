@@ -1,0 +1,25 @@
+header { width: 100%; height: 31px; background: url(../img/labelbar_gradient.png) repeat-x; padding-top: 11px; text-align: center;}
+#hwnyc-logo { background: url(../img/logo.png) no-repeat; width: 188px; height: 20px; margin: 0 auto; display: block;  }
+
+.tabs { overflow:hidden; background: url(media/gradient_dark.png) repeat-x; height: 50px; display: table; width: 100%; }
+
+.tabs ul { display: table-row; width: 100%; }
+
+.tabs .tab { width: 33%; /*display: block; float: left;   */ display: table-cell;background: url(../img/gradient_dark.png) repeat-x; height: 50px;  -webkit-box-sizing: border-box; -moz-box-sizing: border-box;   }
+/*.tabs .tab#help { width: auto;}*/
+.tabs .tab.selected { background: url(../img/gradient_light.png) repeat-x;  }
+
+.tabs .tab a { display: block; width: 100%; height: 50px; float: left;   background-position: center 10px; background-repeat: no-repeat;  text-align: center; color: white; font-size: 10px;  font-weight: bold; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.tabs .tab a span { float: left; width: 100%; height: 15px; display: block;  cursor: pointer;  padding-top: 35px;}
+.tabs .tab.selected a .select-arrow {  background-image: url(../img/labelbar_arrow.png); background-repeat: no-repeat; background-position: center -3px;  }
+
+.tabs #searchit a{ background-image: url(../img/icon_search.png); border-right: 1px solid #568CA6; border-left: 1px solid #568CA6; }
+.tabs #attendid a{ background-image: url(../img/icon_attend.png);  border-right: 1px solid #568CA6; }
+.tabs #help a { background-image: url(../img/icon_help.png);  border-right: 1px solid #568CA6;  }
+
+.tabs #searchit.selected a{ background-image: url(../img/icon_search_selected.png); color: #0B506F;}
+.tabs #attendid.selected a{ background-image: url(../img/icon_attend_selected.png); color: #0B506F;}
+.tabs #help.selected a { background-image: url(../img/icon_help_selected.png); color: #0B506F; }
+
+#app-iframe { border: 0; }
